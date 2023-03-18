@@ -1,0 +1,7 @@
+[x,n]=impseq(0,-5,6)
+subplot(2,1,1)
+stem(n,x,'filled')
+[x,n]=impseq(-2,-5,6)
+subplot(2,1,2)
+stem(n,x,'filled')
+ylim([-1,2])
