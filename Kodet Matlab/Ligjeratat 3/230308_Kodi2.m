@@ -1,0 +1,13 @@
+%paraqitja e u(n)
+[x,n]=stepseq(0,-3,7)
+subplot(2,1,1)
+stem(n,x,'filled')
+xlim([-3,8])
+ylim([-1 2])
+
+%paraqitja e u(n+2)
+[x,n]=stepseq(-2,-3,7)
+subplot(2,1,2)
+stem(n,x,'filled')
+xlim([-3,8])
+ylim([-1 2])
